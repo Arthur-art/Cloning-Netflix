@@ -90,3 +90,15 @@ main .button:hover {
 .button i {
   margin-right: 1rem;
 }
+
+.serie-principal .container {
+  width: 70%;
+}
+
+/*Filmes*/
+
+.box-filme {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
