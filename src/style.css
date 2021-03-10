@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --red: #e50814;
+  --black: #141414;
+  --font: #aaa;
+  --fontWhite: #fff;
+}
+
+body {
+  background: var(--black);
+  font-family: "Times New Roman", Times, serif;
+  color: var(--fontWhite);
+}
+
+header .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo {
+  margin-left: 5px;
+  color: var(--red);
+  font-family: "Arial Black";
+  font-size: 2.5rem;
+}
+
+header nav a {
+  text-decoration: none;
+  color: var(--font);
+  margin-right: 10px;
+}
+
+header nav a:hover {
+  color: var(--fontWhite);
+}
+
+/*Logo - Filme*/
+
+.serie-principal {
+  font-size: 1.4rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+    url("./img/Cosmos.jpg");
+  height: 40rem;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 2rem;
+}
